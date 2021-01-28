@@ -1,0 +1,51 @@
+
+/* Type Selectors */
+
+body {
+    color: #878787;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+}
+
+h2 {
+    font-size: 53px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+/* ID Selectors */
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px green;
+}
+
+/* Class Selectors */
+
+.main-header {
+    background-color: rgb(14, 83, 0); 
+}
+
+.title {
+    color: white;
+    font-size: 90px;
+}
+
+.profile,
+.about_me,
+.headshot {
+    width: 60%;
+}
+
+.about_me {
+    border-top: 2px solid lightgrey;
+}

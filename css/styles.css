@@ -1,51 +1,75 @@
 
-/* Type Selectors */
+/* Base Selectors */
 
 body {
     color: #878787;
-    text-align: center;
     margin: 0;
+    font: 1em/1.5 Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 90px;
-    color: white;
+    font-size: 1.75em; /* 28px/16px */
+    color: rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: .5;
 }
 
 h2 {
-    font-size: 53px;
+    font-size: 3.375em; /* 54px/16px */
+    font-weight: normal;
+    line-height: .5;
+    margin-bottom: 0 0 .48em; /* 0 0 26px */
 }
 
 h3 {
-    font-size: 20px;
-    color: #48525c;
+    font-size: 1.75em; /* 28px/16px */
+    color: #02276d;
+    line-height: .5;
+    margin-bottom: .82em /* 34px */
 }
 
 /* ID Selectors */
 
 #main-footer {
     padding-top: 60px;
-    padding-bottom: 60px;
-    border-bottom: solid 10px green;
+    padding-bottom: 70px;
+    border-bottom: 10px solid rgba(14, 83, 0, .3);
 }
 
 /* Class Selectors */
 
 .main-header {
-    background-color: rgb(14, 83, 0); 
+    background-color: rgba(14, 83, 0, .3); 
 }
 
 .title {
     color: white;
-    font-size: 90px;
+    font-size: 3.9375em; /* 63px/16px */
 }
 
+.main-header,
 .profile,
-.about_me,
-.headshot {
-    width: 60%;
+.background,
+#main-footer {
+    text-align: center;
 }
 
-.about_me {
+.profile {
+    padding-top: 25px;
+    padding-bottom: 95px;
+}
+
+.about_me,
+.background  {
+    padding-top: 80px;
+    padding-bottom: 70px;
     border-top: 2px solid lightgrey;
+}
+
+/* Layout styles */
+
+.container {
+    width: 30%;
+    margin: auto;
 }

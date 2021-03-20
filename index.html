@@ -3,208 +3,199 @@
     <head>
         <title>Alec Knauss</title>
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/scripts.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/14c732c37b.js" crossorigin="anonymous"></script>
+
     </head>
-    <body>
-        <section id="home" class="main-header">
+    <header class="header">
+        <section class="main-header" id="home">
             <span class="title">Alec Knauss</span>
-            <h1>Interactive Resume</h1>
+                <h1>Interactive Resume</h1>
             <div class="headshot">
                 <img src="img/headshot.jpg" alt="headshot">
             </div>
-        </header>
-        <div class="navbar">
-            <a href="#home">Home</a>
+        </section>
+        <div class="topnav" id="navbar">
+            <a href="#home" class="active">Home</a>
             <a href="#profile">Profile</a>
             <a href="#background">Background</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
+    </header>
+    <body>   
         <!-- Main Content -->
-        <div id="main-content">
+        <div class="main-content"> 
             <!-- Profile -->
             <section id="profile">
-                <div class="description" class="active">
+                <div class="description">
                         <h2>Profile</h2>
-                        <ul>
-                            <li>Husband</li>
-                            <li>Cybersecurity Professional</li>
-                            <li>Dog Dad</li>
-                            <li>Music Enthusiast</li>
-                            <li>Avid Runner</li> 
-                            <li>Manchester United Supporter</li>
-                        </ul>
-                    <div class="about_me">
-                        <h3>About Me</h3>
-                        <p>With high profile data breaches making the news daily, organizations must provide security measures that build client and employee confidence.  I take pride in knowing I can help plan and maintain software solutions, monitor security technologies and network traffic, and triage technology events.  Through continuous education and training, I remain committed to staying up-to-date on industry trends and technologies to remain one step ahead of cyber adversaries.  Further, it is my focus to ensure information assets and resources remain confidential, undisturbed, and readily available.</p>
-                    </div>
-                    <div class="family">
-                        <img src="img/family.jpg" alt="family">
-                    </div>
-                    <div class="details">
-                        <h3>Details</h3>
-                        <p>
-                            <strong>Name:</strong>
-                            <br>
-                            Alec Knauss
-                            <br>
-                            <strong>Age:</strong>
-                            <br>
-                            XXXIII
-                            <br>
-                            <strong>Location:</strong>
-                            <br>
-                            38.259444 N, -85.731944 W
-                            <br>
-                            Louisville, KY
-                        </p>
+                        <div class="attribute">
+                            <ul>
+                                <li>Husband</li>
+                                <li>Cybersecurity Professional</li>
+                                <li>Dog Dad</li>
+                                <li>Music Enthusiast</li>
+                                <li>Avid Runner</li> 
+                                <li>Manchester United Supporter</li>
+                            </ul>
+                        </div>
+                    <div class="container">
+                        <div class="about_me col">
+                            <h3>About Me</h3>
+                            <p>With high profile data breaches making the news daily, organizations must provide security measures that build client and employee confidence.  I take pride in knowing I can help plan and maintain software solutions, monitor security technologies and network traffic, and triage technology events.  Through continuous education and training, I remain committed to staying up-to-date on industry trends and technologies to remain one step ahead of cyber adversaries.  Further, it is my focus to ensure information assets and resources remain confidential, undisturbed, and readily available.</p>
+                        </div>
+                        <div class="family col">
+                            <img src="img/family1.jpg"></img>
+                        </div>
+                        <div class="details col">
+                            <h3>Details</h3>
+                            <p>
+                                <strong>Name:</strong>
+                                <br>
+                                Alec Knauss
+                                <br>
+                                <strong>Age:</strong>
+                                <br>
+                                XXXIII
+                                <br>
+                                <strong>Location:</strong>
+                                <br>
+                                38.259444 N, -85.731944 W
+                                <br>
+                                Louisville, KY
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- Background -->
             <section id="background">
-                <div class="background" class="container">
-                    <h2>Background</h2>
-                    <div>
-                        <h3>Work History</h3>
-                        <div class="work_background">
-                            <h4>Norton Healthcare Research Center</h4>
-                            <p class="time_frame">
-                                January 2021 - Present
-                            </p>
-                            <p> <strong>Project Coordinator</strong>
-                            <br>Works as an IT Project Coordinator to initiate and manage the implementation of Clinical Trial Management Software.
-                            </p>
-                        </div>    
-                        <div class="work_background">
-                            <h4>Clayton & Crume</h4>
-                            <p class="time_frame">
-                                April 2020 - January 2021
-                            </p>
-                            <p> <strong>Security and Support Software Product Manager</strong>
-                            <br>Designed, executed, and integrated e-commerce, shipping, and CRM software to help move business forward.
-                            </p>
-                        </div>
-                        <div class="work_background">
-                            <h4>Stitch Fix</h4>
-                            <p class="time_frame">
-                                September 2018 - February 2020
-                            </p>
-                            <p> <strong>Client Experience Analyst</strong>
-                            <br>Conducted regular audits of systems and infrastructure to continually improve operations and drive security compliance.
-                            </p>
-                        </div>
-                        <div class="work_background">
-                            <h4>TX Department of Public Safety</h4>
-                            <p class="time_frame">
-                                May 2018 - August 2018
-                            </p>
-                            <p> <strong>Cybersecurity Intern</strong>
-                            <br>Monitored the use of data files and regulated access to protect secure information.
-                            </p>
-                        </div>
-                        <div class="work_background">
-                            <h4>Forcepoint</h4>
-                            <p class="time_frame">
-                                August 2015 - January 2018
-                            </p>
-                            <p> <strong>Inside Sales Representative</strong>
-                            <br>Determined cybersecurity needs, delivered software solutions, and overcame objections through consultative selling skills.
-                        </div>
-                        <div class="work_background">
-                            <h4>MD2U</h4>
-                            <p class="time_frame">
-                                September 2013 - May 2015
-                            </p>
-                            <p> <strong>Patient Care Coordinator - Lead</strong>
-                            <br>Performed in an advisory resource capacity to reduce hospital readmissions and provide patient care expertise.
-                        </div>
-                        <h3>Education</h3>
-                        <div class="education_background">
-                            <h4>University of Dallas</h4>
-                            <p> <strong>Master of Science: Cybersecurity</strong>
-                            </p>
-                            <p class="time_frame">
-                                2018 - 2020
-                            </p>
-                        </div> 
-                        <div class="education_background">
-                            <h4>Kenyon College</h4>
-                            <p> <strong>Bachelor of Arts: Political Science</strong>
-                            </p>
-                            <p class="time_frame">
-                                2006 - 2010
-                            </p>
-                        </div>    
-                    </div>
+                <div class="background">
+                <h2>Background</h2>
+                <div class="work_background">
+                    <h3>Work History</h3>
+                    <h4>Norton Healthcare Research Center</h4>
+                    <p class="time_frame">
+                        January 2021 - Present
+                    </p>
+                    <p> <strong>Project Coordinator</strong>
+                    <br>Works as an IT Project Coordinator to initiate and manage the implementation of Clinical Trial Management Software.
+                    </p>
+                </div>    
+                <div class="work_background">
+                    <h4>Clayton & Crume</h4>
+                    <p class="time_frame">
+                        April 2020 - January 2021
+                    </p>
+                    <p> <strong>Security and Support Software Product Manager</strong>
+                    <br>Designed, executed, and integrated e-commerce, shipping, and CRM software to help move business forward.
+                    </p>
+                </div>
+                <div class="work_background">
+                    <h4>Stitch Fix</h4>
+                    <p class="time_frame">
+                        September 2018 - February 2020
+                    </p>
+                    <p> <strong>Client Experience Analyst</strong>
+                    <br>Conducted regular audits of systems and infrastructure to continually improve operations and drive security compliance.
+                    </p>
+                </div>
+                <div class="work_background">
+                    <h4>TX Department of Public Safety</h4>
+                    <p class="time_frame">
+                        May 2018 - August 2018
+                    </p>
+                    <p> <strong>Cybersecurity Intern</strong>
+                    <br>Monitored the use of data files and regulated access to protect secure information.
+                    </p>
+                </div>
+                <div class="work_background">
+                    <h4>Forcepoint</h4>
+                    <p class="time_frame">
+                        August 2015 - January 2018
+                    </p>
+                    <p> <strong>Inside Sales Representative</strong>
+                    <br>Determined cybersecurity needs, delivered software solutions, and overcame objections through consultative selling skills.
+                </div>
+                <div class="work_background">
+                    <h4>MD2U</h4>
+                    <p class="time_frame">
+                        September 2013 - May 2015
+                    </p>
+                    <p> <strong>Patient Care Coordinator - Lead</strong>
+                    <br>Performed in an advisory resource capacity to reduce hospital readmissions and provide patient care expertise.
+                </div>
+                <div class="education_background">
+                    <h3>Education</h3>
+                    <h4>University of Dallas</h4>
+                    <p> <strong>Master of Science: Cybersecurity</strong>
+                    </p>
+                    <p class="time_frame">
+                        2018 - 2020
+                    </p>
+                </div> 
+                <div class="education_background">
+                    <h4>Kenyon College</h4>
+                    <p> <strong>Bachelor of Arts: Political Science</strong>
+                    </p>
+                    <p class="time_frame">
+                        2006 - 2010
+                    </p>
                 </div>
             </section>
             <!-- Skills -->
             <section id="skills">
-                <div class="technical">
-                    <h2>Abilities</h2>
-                    <h3>Technical Skills</h3>
-                    <ul>
-                        <li>Security Incident Handling & Response</li>
-                        <li>SIEM Management</li>
-                        <li>Audit & Compliance</li>
-                        <li>Data Managment Protection</li>
-                        <li>Project Management</li> 
-                        <li>Identity & Access Management</li>
-                    </ul>
-                </div>
-                <div class="soft">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Leadership</li>
-                        <li>Enthusiastic</li>
-                        <li>Determined</li>
-                        <li>Collaborative</li>
-                        <li>Critical Thinker</li> 
-                        <li>Inquisitive</li>
-                    </ul>
-                </div>
+                <h2>Abilities</h2>
+                <div class="container">
+                    <div class="technical">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>Security Incident Handling & Response</li>
+                            <li>SIEM Management</li>
+                            <li>Audit & Compliance</li>
+                            <li>Data Managment Protection</li>
+                            <li>Project Management</li> 
+                            <li>Identity & Access Management</li>
+                        </ul>
+                    </div>
+                    <div class="soft">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Leadership</li>
+                            <li>Enthusiastic</li>
+                            <li>Determined</li>
+                            <li>Collaborative</li>
+                            <li>Critical Thinker</li> 
+                            <li>Inquisitive</li>
+                        </ul>
+                    </div>
+            </div>
             </section>    
-        </div>
-        <!-- Contact -->
-        <section id="contact">
-            <div class="contact">
-                <div class="section_title">
-                    <h2>Contact</h2>
-                    <p>Are you interested in analyzing the latest ransomware source code? Sharing your favorite music albums? Discussing why a foam rolling routine should be at the top of every runner's priority list? Or, chanting (screaming, really) "Glory! Glory! Man United" at the top of our lungs? Hit me up on social media or drop me a line below!</p>
-                </div>
-                <div class="contact_form">
-                    <h2>Drop Me A Line!</h2>
-                    <div id="error_message"></div>
-
-                    <form>
-                        <label>
-                            Name
-                            <input type="text" class="name"/>
-                        </label>
-                        <label>
-                            Email
-                            <input type="email" class="email"/>
-                        </label>
-                        <label>
-                            Message
-                            <textarea></textarea>
-                        </label>
-                        <div class="status">
-                            
-                        </div>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-            </div>
-
-                </div>
-            </div>
-        </section>
-
-        <footer id="main-footer">
-            <p>All rights reserved</p>
-            <a href="#top">Back to Top</a>
-        </footer>
-    </body>
+            <!-- Contact -->
+            <section id="contact">
+                <div class="contact">
+                    <div class="section_title">
+                        <h2>Contact</h2>
+                        <p>Are you interested in analyzing the latest ransomware source code? Sharing your favorite music albums? Discussing why a foam rolling routine should be at the top of every runner's priority list? Or, chanting (screaming, really) "Glory! Glory! Man United" at the top of our lungs? Hit me up on social media or drop me a line below!</p>
+                    </div>
+                    <div class="contact_form">
+                        <h2>Drop Me A Line!</h2>
+                        <form class="form-group">
+                            <label for="name">Name</label>
+                            <input required type="text" id="name">
+                            <label for="email">Email</label>
+                            <input required type="email" id="email" name="email">
+                            <label for="message">Message</label>
+                            <textarea required type="text" id="message"></textarea>
+                            <input type="submit" value="Submit" />
+                        </form>
+                        <div id="message"></div>
+                    </div>
+            </section>
+        </div>         
+    </body>    
 </html>

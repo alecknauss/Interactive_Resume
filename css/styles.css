@@ -107,7 +107,7 @@ h3 {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(231, 231, 231);
     color: black;
 }
 
@@ -132,13 +132,13 @@ h3 {
     padding-top: 102px;
 }
 
-.contact {
+#contact {
     margin: 0;
     padding: 10px;
     outline: none;
     font: 1em/1.5 Arial, Helvetica, sans-serif;
     background-color: #878787;
-    color: #dad6d6;
+    color: rgb(231, 231, 231);
 }
 
 .contact_form h2 {
@@ -160,22 +160,48 @@ h3 {
     margin-top: 20px;
 }
 
-.form-group {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 20px;
+#myform {
+    text-align: center;
 }
 
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 5px;
-    font-size: 18px;
-    border: 1px solid #dad6d6;
-    margin-top: 5px;
+.input_field {
+    margin-bottom: 10px;
 }
 
-.textarea {
-    resize: vertical;
+.input_field input[type="text"],
+.input_field textarea {
+    width: 95%;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.input_field textarea {
+    height: 80px;
+    resize: none;
+}
+
+.btn input[type="submit"] {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #038d8d;
+    color: rgb(231, 231, 231);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    color: #332902;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
 }
 
 /* Media Queries */

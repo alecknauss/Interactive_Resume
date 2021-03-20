@@ -177,21 +177,28 @@
             </section>    
             <!-- Contact -->
             <section id="contact">
-                <div class="contact">
+                <div class="contact wrapper">
                     <div class="section_title">
-                        <h2>Contact</h2>
+                        <h2>Contact Me</h2>
                         <p>Are you interested in analyzing the latest ransomware source code? Sharing your favorite music albums? Discussing why a foam rolling routine should be at the top of every runner's priority list? Or, chanting (screaming, really) "Glory! Glory! Man United" at the top of our lungs? Hit me up on social media or drop me a line below!</p>
                     </div>
                     <div class="contact_form">
                         <h2>Drop Me A Line!</h2>
-                        <form class="form-group">
-                            <label for="name">Name</label>
-                            <input required type="text" id="name">
-                            <label for="email">Email</label>
-                            <input required type="email" id="email" name="email">
-                            <label for="message">Message</label>
-                            <textarea required type="text" id="message"></textarea>
-                            <input type="submit" value="Submit" />
+                        <div id="error_message"></div>
+
+                        <form id="myform" onsubmit="return validation()">
+                            <div class="input_field">
+                                <input type="text" placeholder="Name" id="name">
+                            </div>
+                            <div class="input_field">
+                                <input type="text" placeholder="Email" id="email">
+                            </div>
+                            <div class="input_field">
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="btn">
+                                <input type="submit">
+                            </div>
                         </form>
                         <div id="message"></div>
                     </div>

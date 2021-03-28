@@ -9,6 +9,11 @@ While no specific packages are required for interactiong, this resume can be vie
 ## Usage
 This resume was designed mobile first and uses Flexbox to adapt to larger screen sizes. The hamburger menu is responsive through JavaScript functions; additionally, as screen sizes increase, the hamburger transforms into a responsive horizonal navigation bar. Finally, the contact form utilizes form validation through JavaScript. It requires a minimimum character length for name and messages and an "@" sign for email.
 
+## Collaboration
+Pull requests are welcome!
+
+## Contributors
+Thanks to Code Louisville and all the mentors who have further my development and contributed to this project!
+
 ## External Sources
 1. https://fontawesome.com
-2. 

@@ -1,7 +1,7 @@
 # Interactive Resume
 Hi, I'm Alec! I'm a champion for user experience with an extensive background in information security and project management. I pride myself on defining, creating, and leading the implementation and execution of innovative technologies that deliver a consistent and secure experience throughout the user journey. 
 
-This project is intended to be a personal interactive resume and is strucutured to resemble the format of a traditional resume. With that said, I hope the personal touches help you get to know a little more about myself and my passions.
+This project is intended to be a personal interactive resume and is strucutured to resemble the format of a traditional resume. With that said, I hope the personal touches help you get to know a little more about me and my passions.
 
 ## Installation
 While no specific packages are required for interactiong, this resume can be viewed best on updated versions of Chrome or Firefox browsers.
